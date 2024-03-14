@@ -1,0 +1,93 @@
+<!Doctype html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Profile Page</title>
+ <!-- For CSS -->
+ <link rel="stylesheet" href="PPP.css">
+ <!-- For icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <!-- For Javascript -->
+ <script src="PPP.js"></script>
+    </head>
+    <body id="bodytag">
+        <div class="container">
+            <div class="side" id ="left_side">
+                <img id="image" src="https://vectorseek.com/wp-content/uploads/2023/04/Chitkara-University-Logo-Vector.jpg" width="140px" alt="pic" height="150px">
+             <h2 id="name">Vanshika</h2>
+             <p id ="work">Web Developer</p>
+             <div id="botbord"></div>
+             <h2 class="conedu"><b>Contact Info:</b></h2>
+             <i id="phone"class="fa-solid fa-phone"> +91 7988573896</i>
+             <i id="mail" class="fa-solid fa-envelope"> vanshika430@gmail.com</i>
+             <i id="ins" class="fa-brands fa-instagram"> @vanshika43</i>
+             <i id="loc" class="fa-solid fa-location-dot"> Pinjore,Haryana,India</i>
+             <h2 class="conedu">Education:</h2>
+            <ul class ="list">
+                <li class="year"><b>2023-2027</b></li>
+                <li class="stu">Bachelor in Computer Science</li>
+                <li class="uni">Chitkara University</li>  
+            </ul>
+            <ul class ="list">
+            <li class="year"><b>2008-2023</b></li>
+            <li class="stu">High School Graduation under CBSE Board</li>
+            <li class="uni">DAV Public School</li>
+            </ul>
+            <h2 class="conedu">Languages:</h2>
+            <ul class ="list">
+                <li>
+                    <span class="lang">English</span>
+                    <p id ="percenteng"></p>
+                </li>
+                <li>
+                    <span class="lang">Hindi</span>
+                    <p id ="percenthin"></p>
+                </li>  
+                <li>
+                    <span class="lang">Punjabi</span>
+                    <p id="percentpun"></p>
+                </li> 
+            </ul>
+        </div>
+            <div class="side" id ="right_side">
+                <H2 id="profile"><b><u>PROFILE</u></b></H2>
+                <p class="para">Driven by desire to make positive impact, I thrive in problem-solving environments. Whether it's
+                    tackling complex assignments,collaborating on team projects,or delving into real-world challenges. I approach
+                    each task with a blend of analytical thinking and creativity.<br>My goal is not just to excel academically
+                    but to apply my skills to real-world situations and contribute meaningfully.
+                Beyond my academic pursuits, I am a firm believer in the power of holistic growth. My diverse interests range from dance to graphic design, allowing me to blend the rhythm of movement with the creativity of visual expression, creating a harmonious balance between physical and artistic pursuits.
+
+                <H2 id="profile"><b><u>CERTIFICATION</u></b></H2>
+                <p class="cer"><b>Python Development:</b></p>
+                <p class="tex1">Completed Python course from Coding Ninjas <br><a class="link" onclick="alert1()" target="_blank" href="C:\Users\vamik\Downloads\Certificates\Coding Ninja Completion Certificate.pdf"><b>Click Here For Certificate</b></a></p>
+                <p class="cer"><b>Arts of Science and Relationship:</b></p>
+                <p class="tex1">Completed Arts of Science and Relationship Course from Coursera <br> <a class="link" onclick="alert1()" target="_blank" href="C:\Users\vamik\Downloads\Certificates\The arts and science of relationships course certificate.jpg"><b>Click Here For Certificate</b></a></p>
+                <b><p class="cer">Personality Enhancement:</p></b>
+                <p class="tex1">Completed Personality Enhancement Course including oral communication, writing and interpersonal communication course  <br> <a class="link" onclick="alert1()" target="_blank" href="C:\Users\vamik\Downloads\Certificates\Certificates for Personality Enhancement.pdf"><b>Click Here For Certificate</b></a></p>
+
+                <H2 id="profile"><b><u>PROFESSIONAL SKILLS</u></b></H2>
+                <ul class ="list">
+                    <li>
+                    <span class="pfs">HTML</span>
+                    <p id="percenthtml"></p>
+                    <span class="pfs">CSS</span>
+                    <p id="percentcss"></p>
+                    <span class="pfs">MS Office</span>
+                    <p id="percentms"></p>
+                    <span class="pfs">Python</span>
+                    <p id="percentpython"></p>
+                    </li>
+                </ul>
+
+                <H2 id="profile"><b><u>INTEREST</u></b></H2>
+                <ul class="list">
+                    <li class="inlineint"><i class="fa-solid fa-road" id="interest"></i><b class="interestword">Travelling</b></li>
+                    <li class="inlineint"><i class="fa fa-pencil" id="interest"></i><b class="interestword">Writing</b></li>
+                    <li class="inlineint"><i class="fa-solid fa-book" id="interest"></i><b class="interestword">Reading</b></li>
+                    <li class="inlineint"><i class="fa fa-cutlery" id="interest"></i><b class="interestword">Cooking</b>
+                </ul>
+                <button type="button" id="printb" onclick="printPage()"><i id="printic" class="fa-solid fa-print"></i>Print Page</button>
+            </div>  
+        </div>
+    </body>
+</html>
